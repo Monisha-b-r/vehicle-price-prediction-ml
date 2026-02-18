@@ -112,4 +112,12 @@ Future improvements may include:
 
 The trained Random Forest model is saved as:
 
+vehicle_price_model.pkl
+
+It can be loaded using:
+
+```python
+import joblib
+model = joblib.load("vehicle_price_model.pkl")
+
 
