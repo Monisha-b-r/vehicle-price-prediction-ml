@@ -30,7 +30,11 @@ The dataset includes vehicle listing features such as:
 - Gear box type  
 - Drive wheels  
 - Mileage  
-- Interior features  
+- Interior features
+- 
+## Dataset Source:
+Kaggle – Vehicle Price Dataset (19,237 rows, 18 columns)
+
 
 ### Data Challenges:
 
@@ -60,7 +64,7 @@ The following preprocessing steps were performed:
 
 - Analyzed price distribution (right-skewed distribution observed)
 - Generated correlation heatmap
-- Identified that no single feature dominates price prediction
+- No single feature showed extremely high correlation with price.
 - Observed multi-feature interaction patterns
 
 These findings justified the use of tree-based ensemble models.
